@@ -1,4 +1,4 @@
-using DevExpress.DXperience.Demos;
+﻿using DevExpress.DXperience.Demos;
 using DevExpress.XtraBars;
 using FluentDesignDevExpress.UI;
 using System;

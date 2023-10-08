@@ -75,16 +75,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\CashBookModule.cs">
+    <Compile Include="Modules\CashBookModule.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\CashBookModule.Designer.cs">
+    <Compile Include="Modules\CashBookModule.Designer.cs">
       <DependentUpon>CashBookModule.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\XtraUserControl1.cs">
+    <Compile Include="Modules\XtraUserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\XtraUserControl1.Designer.cs">
+    <Compile Include="Modules\XtraUserControl1.Designer.cs">
       <DependentUpon>XtraUserControl1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
@@ -101,10 +101,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UI\CashBookModule.resx">
+    <EmbeddedResource Include="Modules\CashBookModule.resx">
       <DependentUpon>CashBookModule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\XtraUserControl1.resx">
+    <EmbeddedResource Include="Modules\XtraUserControl1.resx">
       <DependentUpon>XtraUserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />

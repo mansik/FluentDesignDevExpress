@@ -1,4 +1,4 @@
-
+﻿
 namespace FluentDesignDevExpress.UI
 {
     partial class CashBookModule

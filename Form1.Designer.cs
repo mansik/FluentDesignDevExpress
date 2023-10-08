@@ -1,4 +1,4 @@
-
+﻿
 namespace FluentDesignDevExpress
 {
     partial class Form1
