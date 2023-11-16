@@ -5,10 +5,10 @@
 ## 설명:  Fluent Design DevExpress(accordionControl)
 
 ## 환경
-* Visual Studio: [x] 2019, [ ] 2022
+* Visual Studio: [ ] 2019, [x] 2022
 * 프로젝트 생성: [x] .Net Framework, [ ] .Net WinForm(windows form)
 * Package 
-  * [x] DevExpress 18.2
+  * [x] DevExpress 23.1
 * NuGet
   * [ ] System.Data.SqlClient
   * [ ] Dapper

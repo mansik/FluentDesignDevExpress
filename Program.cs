@@ -1,8 +1,5 @@
-﻿using DevExpress.Skins;
-using DevExpress.UserSkins;
+﻿using DevExpress.UserSkins;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace FluentDesignDevExpress
@@ -29,7 +26,7 @@ namespace FluentDesignDevExpress
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
-               
+
                 Application.Run(new Form1());
 
                 mtx.ReleaseMutex();
