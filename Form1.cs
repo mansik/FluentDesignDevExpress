@@ -19,8 +19,7 @@ namespace FluentDesignDevExpress
             {
                 if (!fluentDesignFormContainer.Controls.ContainsKey(module.Name))
                 {
-                    TutorialControlBase control = module.TModule as TutorialControlBase;
-                    if (control != null)
+                    if (module.TModule is TutorialControlBase control)
                     {
                         control.Dock = DockStyle.Fill;
                         control.CreateWaitDialog();
